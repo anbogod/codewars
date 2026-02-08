@@ -14,10 +14,10 @@
 function combat(health, damage) {
   // Write your code here
   if (health - damage < 0 ) {
-    return "Health cannot go below 0"
+    return 0
   } else {
     return health - damage
   }
 }
 
-console.log(combat(20, 30));
+

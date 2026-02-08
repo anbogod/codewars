@@ -25,4 +25,4 @@ function makeNegative(num) {
   }
 }
 
-console.log(makeNegative(-10));
+
